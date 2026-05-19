@@ -2,7 +2,6 @@
 version: alpha
 name: "Dreamcore Design System"
 description: "A surreal, emotional, and nostalgic design system. Captures the essence of liminal spaces and late-90s digital memories."
-author: "Masaaki Sumimoto"
 
 colors:
   # Primitive: Pink Scale (50-900)
@@ -20,10 +19,10 @@ colors:
   # Base Colors
   background: "#fef2f2"        # Soft Blush Cream
   surface: "#ffffff"           # Pure White
-  surface-dim: "{colors.pink-100}"
+  surface-dim: "#fce7f3"
   
   # Accents
-  primary: "#ffbdd9"           # Soft Bloom
+  primary: "#f9a8d4"           # Soft Bloom
   secondary: "#c7e2ff"         # Sky Memory
   lilac: "#d8b4fe"             # Ethereal Lavender
   mint: "#a7ffe0"              # Distant Spring
@@ -35,9 +34,9 @@ colors:
   rose: "#b8336a"              # Emotional Pulse
 
   # Functional
-  text: "{colors.midnight}"
+  text: "#151e3f"
   text-muted: "#79aea3"
-  action: "{colors.primary}"
+  action: "#ffbdd9"
 
 typography:
   # Defining styles that combine properties
